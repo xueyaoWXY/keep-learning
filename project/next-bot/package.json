@@ -1,0 +1,32 @@
+{
+  "name": "next-bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "next-with-less": "^3.0.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "css-loader": "^7.1.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "postcss": "^8",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
